@@ -1,0 +1,12 @@
+//
+// Created by JPDSP on 29/08/2017.
+//
+
+#include "data_system.h"
+
+#ifndef REWRITE_MOBILEED_DATA_VAPPS_H
+#define REWRITE_MOBILEED_DATA_VAPPS_H
+
+#define VAPPS_ARRAY_ITEMMAX SYSTEM_APPMAX
+
+#endif //REWRITE_MOBILEED_DATA_VAPPS_H

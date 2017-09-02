@@ -1,0 +1,3 @@
+C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/CMakeFiles/ReWrite_MobileED.dir
+C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/CMakeFiles/rebuild_cache.dir
