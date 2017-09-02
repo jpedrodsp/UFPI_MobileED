@@ -24,6 +24,7 @@ int fileh_file_init(FILE* file, const char* filename){
 
 int fileh_vstore_insertApp(FILE* file, BASE_APP_ITEM _newApp) {
     fprintf(file, "%d %d %s\n", _newApp.appUID, _newApp.appSize, _newApp.appName);
+    return 0;
 }
 
 int fileh_vstore_getAppCount(FILE* file) {
@@ -38,4 +39,20 @@ int fileh_vstore_getAppCount(FILE* file) {
         }
     } while (1);
     return appCount;
+}
+
+int fileh_vstore_checkConflictApp(FILE* file, BASE_APP_ITEM* _App) {
+    int appCount = fileh_vstore_getAppCount(file);
+    int i;
+    BASE_APP_ITEM* _tempApp = Appitem_create_invalid();
+    for (i = 0; i < appCount; ++i) {
+        if (feof(file)) {
+            return 0;
+        }
+        fscanf(file, "%d %d %s", &_tempApp->appUID, &_tempApp->appSize, &_tempApp->appName);
+        if (_App->appUID == _tempApp->appUID) {
+            return 1;
+        }
+    }
+    return 0;
 }

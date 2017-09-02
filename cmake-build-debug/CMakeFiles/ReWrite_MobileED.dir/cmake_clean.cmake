@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/ReWrite_MobileED.dir/file_handler.c.obj"
   "CMakeFiles/ReWrite_MobileED.dir/desktop.c.obj"
   "CMakeFiles/ReWrite_MobileED.dir/data_system.c.obj"
+  "CMakeFiles/ReWrite_MobileED.dir/interface.c.obj"
   "ReWrite_MobileED.pdb"
   "ReWrite_MobileED.exe"
   "ReWrite_MobileED.exe.manifest"

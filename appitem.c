@@ -35,8 +35,8 @@ BASE_APP_ITEM Appitem_create_dummy(){
 BASE_APP_ITEM Appitem_create_invalid(){
     BASE_APP_ITEM _newApp;
     _newApp.appUID = -1;
-    _newApp.appSize = -1;
-    strcpy(_newApp.appName, "** [ INVALID ] **");
+    _newApp.appSize = 0;
+    strcpy(_newApp.appName, "");
 
     return _newApp;
 }

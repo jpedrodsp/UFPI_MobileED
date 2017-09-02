@@ -1,0 +1,8 @@
+//
+// Created by jpedro on 02/09/2017.
+//
+
+#ifndef REWRITE_MOBILEED_INTERFACE_H
+#define REWRITE_MOBILEED_INTERFACE_H
+
+#endif //REWRITE_MOBILEED_INTERFACE_H

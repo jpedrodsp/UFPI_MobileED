@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug"/>
+				<Option working_dir="C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ReWrite_MobileED">
-				<Option output="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/ReWrite_MobileED.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug"/>
+				<Option output="C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/ReWrite_MobileED.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -32,15 +32,15 @@
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReWrite_MobileED"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReWrite_MobileED"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ReWrite_MobileED/fast">
-				<Option output="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/ReWrite_MobileED.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug"/>
+				<Option output="C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/ReWrite_MobileED.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -53,79 +53,85 @@
 					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReWrite_MobileED/fast"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 ReWrite_MobileED/fast"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug"/>
+				<Option working_dir="C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug"/>
+				<Option working_dir="C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/jpedro/Desktop/UFPI_MobileED/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/appitem.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/appitem.h">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_system.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_system.h">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.h">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_vapps.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_vapps.h">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_vrom.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_vrom.h">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_vstore.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/data_vstore.h">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.h">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/desktop.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/desktop.h">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/file_handler.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/file_handler.h">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.h">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/main.c">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/interface.c">
 			<Option target="ReWrite_MobileED"/>
 		</Unit>
-		<Unit filename="C:/Users/jpedro/Desktop/Trabalho/ReWrite_MobileED/CMakeLists.txt">
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/interface.h">
+			<Option target="ReWrite_MobileED"/>
+		</Unit>
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/main.c">
+			<Option target="ReWrite_MobileED"/>
+		</Unit>
+		<Unit filename="C:/Users/jpedro/Desktop/UFPI_MobileED/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

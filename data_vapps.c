@@ -5,8 +5,9 @@
 #include "appitem.h"
 #include <string.h>
 #include "data_vapps.h"
+#include "data_vrom.h"
 
-void vApps_init(BASE_APP_ITEM* _vApps) {
+void vROM_init(BASE_APP_ITEM *_vApps) {
     int i;
     for (i = 0; i < VAPPS_ARRAY_ITEMMAX; ++i) {
         _vApps[i].appUID = APPITEM_NULL_UID;
@@ -147,4 +148,27 @@ int vApps_find_byName (BASE_APP_ITEM* _vApps, const char* _AppName) {
 
 BASE_APP_ITEM vApps_return_byIndex (BASE_APP_ITEM* _vApps, int index) {
     return _vApps[index];
+}
+
+
+int vApps_uninstall_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID) {
+    int ec = 0;
+    int index = vROM_find_byUID(_vROM, UID);
+    if (index == -1) {
+        index = vApps_find_byUID(_vApps, UID);
+        if (index == -1) {
+            ec = vApps_remove(_vApps, UID);
+            if (ec != 0) {
+                return (ec + 1);
+                /*
+                 * EC 2 : The App isn't installed.
+                 * EC 3 : There aren't any apps installed.
+                 */
+            }
+        } else {
+            return 2; // The App isn't installed.
+        }
+    } else {
+        return 1; // The App is executing in vROM. Can't uninstall.
+    }
 }
