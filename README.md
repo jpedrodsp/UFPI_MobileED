@@ -1,8 +1,9 @@
-# MobileED v0.1a
+﻿# MobileED v0.1a
 
 ## Sobre o projeto
 - Este é o Trabalho de Estrutura de Dados 1, da Universidade Federal do Piauí - UFPI (Período 2017.2). Ele utiliza uma aproximação do modelo MVC (Model View Controller), visando dividir o código em várias funções a fim de reutilizar o código com mais eficiência e evitar alterações desnecessárias em outros trechos. Entretanto, é possível perceber que há muitos trechos de código ainda implementadas diretamente no código, que deve ser corrigido futuramente.
-- Este programa foi projetado no CLion 2017.2.2, para o Windows 10.
+- Este programa foi criado para o Windows 10, utilizando o CLion 2017.2.2.
+- Este projeto está no GitHub! -> https://github.com/jpedrodsp/UFPI_MobileED
 
 ## Formas de compilação
 - Utilizando CMake
