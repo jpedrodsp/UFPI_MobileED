@@ -50,11 +50,15 @@ int main() {
         interface_print_centralized(INTERFACE_HSIZE, "pré-definidos.");
         printf("\n");
         interface_print_centralized_nojump(INTERFACE_HSIZE, "Aperte qualquer tecla para continuar...");
+        fflush(stdin);
         scanf("*%c");
         vStoreFile = fopen("vStore.mED", "w+");
         fileh_vstore_createExamples(vStoreFile);
         fclose(vStoreFile);
-        int vStoreLoaded = 1;
+        vStoreLoaded = 1;
+    } else {
+        fclose(vStoreFile);
+        vStoreLoaded = 1;
     }
     vStoreFile = fopen("vStore.mED", "r");
     vStoreCount = fileh_vstore_getAppCount(vStoreFile);

@@ -6,107 +6,107 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.c
 stdio.h
 -
 string.h
 -
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_system.c
 data_system.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_system.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 data_vstore.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vstore.h
 data_vapps.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vapps.h
 data_vrom.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vrom.h
 file_handler.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/file_handler.h
 desktop.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.h
 string.h
 -
 stdio.h
 -
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_system.h
 stdio.h
 -
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 desktop.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vapps.c
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 string.h
 -
 stdlib.h
 -
 data_vapps.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vapps.h
 data_vrom.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vrom.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vapps.h
 data_system.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_system.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vrom.c
 data_vrom.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vrom.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 stdio.h
 -
 string.h
 -
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vrom.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vstore.c
 data_vstore.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vstore.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 file_handler.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/file_handler.h
 string.h
 -
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vstore.h
 stdio.h
 -
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.c
 stdio.h
 -
 string.h
 -
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 desktop.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.h
 data_vapps.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vapps.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/file_handler.c
 stdio.h
 -
 string.h
@@ -114,17 +114,17 @@ string.h
 stdlib.h
 -
 file_handler.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/file_handler.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/file_handler.h
 stdio.h
 -
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/interface.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/interface.c
 stdio.h
 -
 string.h
@@ -132,27 +132,27 @@ string.h
 stdlib.h
 -
 interface.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/interface.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/interface.h
 data_system.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_system.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 desktop.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.h
 data_vstore.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vstore.h
 data_vapps.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vapps.h
 data_vrom.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vrom.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/interface.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/interface.h
 desktop.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.h
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 
-C:/Users/jpedro/Desktop/UFPI_MobileED/main.c
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/main.c
 stdio.h
 -
 string.h
@@ -162,17 +162,17 @@ locale.h
 stdlib.h
 -
 appitem.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/appitem.h
 file_handler.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/file_handler.h
 desktop.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/desktop.h
 data_vrom.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vrom.h
 data_vapps.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vapps.h
 data_vstore.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/data_vstore.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/data_vstore.h
 interface.h
-C:/Users/jpedro/Desktop/UFPI_MobileED/interface.h
+C:/Users/jpedro/Desktop/UFPI_MobileED_jpedrodsp/interface.h
 
