@@ -18,6 +18,5 @@ void Appitem_debug_print_info(BASE_APP_ITEM _appitem);
 BASE_APP_ITEM Appitem_create_newapp(int UID, int Size, const char* Name);
 BASE_APP_ITEM Appitem_create_dummy();
 BASE_APP_ITEM Appitem_create_invalid();
-const char* Appitem_return_name(BASE_APP_ITEM _Item);
 
 #endif //REWRITE_MOBILEED_APPITEM_H

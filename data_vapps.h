@@ -7,9 +7,10 @@
 #ifndef REWRITE_MOBILEED_DATA_VAPPS_H
 #define REWRITE_MOBILEED_DATA_VAPPS_H
 
+#define VAPPS_NAME "Meus Aplicativos"
 #define VAPPS_ARRAY_ITEMMAX SYSTEM_APPMAX
 
-void vROM_init(BASE_APP_ITEM *_vApps);
+void vApps_init(BASE_APP_ITEM *_vApps);
 int vApps_return_count(BASE_APP_ITEM* _vApps);
 int vApps_install (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _newItem);
 int vApps_remove (BASE_APP_ITEM* _vApps, int UID);

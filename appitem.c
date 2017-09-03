@@ -40,9 +40,3 @@ BASE_APP_ITEM Appitem_create_invalid(){
 
     return _newApp;
 }
-
-const char* Appitem_vStore_return_name_byUID(BASE_APP_ITEM* _List, int UID){
-    int i;
-    for (i = 0; i < )
-    return _Item.appName;
-}

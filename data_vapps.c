@@ -7,7 +7,7 @@
 #include "data_vapps.h"
 #include "data_vrom.h"
 
-void vROM_init(BASE_APP_ITEM *_vApps) {
+void vApps_init(BASE_APP_ITEM *_vApps) {
     int i;
     for (i = 0; i < VAPPS_ARRAY_ITEMMAX; ++i) {
         _vApps[i].appUID = APPITEM_NULL_UID;
@@ -89,8 +89,8 @@ int vApps_remove (BASE_APP_ITEM* _vApps, int UID) {
                 _vApps[j+1] = _vApps[j];
             }
             // The last element should be an null element. But...
-            if (_vApps[appCount] != APPITEM_NULL_UID) {
-                _vApps[appCount].appUID = APPITEM_NULL_UID
+            if (_vApps[appCount].appUID != APPITEM_NULL_UID) {
+                _vApps[appCount].appUID = APPITEM_NULL_UID;
                 _vApps[appCount].appSize = 0;
                 strcpy(_vApps[appCount].appName, "");
             }

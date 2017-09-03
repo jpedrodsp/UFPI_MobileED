@@ -39,7 +39,7 @@ BASE_APP_ITEM MobileED_vStore_getElements(BASE_APP_ITEM* _vStore, int index){
 int MobileED_install_copy_from_vStore(BASE_APP_ITEM* _vStore, BASE_APP_ITEM* _vApps, int index){
     BASE_APP_ITEM _tempApp = Appitem_create_invalid();
     _tempApp = vStore_getApp(_vStore, index);
-    vApp
+
 }
 
 // Implementar uma função que atualize elementos de uma matriz;

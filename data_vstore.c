@@ -19,7 +19,7 @@ int vStore_insert_on_file (FILE *_vStoreData, BASE_APP_ITEM *_NewItem) {
     if (_ec == 1) {
         return 1; // Conflicting apps return code
     } else {
-        _ec = fileh_vstore_insertApp(_NewItem);
+        _ec = fileh_vstore_insertApp(_vStoreData, *_NewItem);
         if (_ec == 1) {
             return 2; // Couldn't insert return code.
         }
@@ -87,6 +87,6 @@ int vStore_find_byName (BASE_APP_ITEM* _vStore, const char* _AppName) {
 
 }
 
-BASE_APP_ITEM vApps_return_byIndex (BASE_APP_ITEM* _vStore, int index) {
+BASE_APP_ITEM vStore_return_byIndex (BASE_APP_ITEM* _vStore, int index) {
     return _vStore[index];
 }

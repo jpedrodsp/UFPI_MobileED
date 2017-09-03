@@ -3,6 +3,7 @@
 //
 
 #include "data_vrom.h"
+#include "appitem.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -86,8 +87,8 @@ int vROM_remove (BASE_APP_ITEM* _vROM, int UID) {
                 _vROM[j+1] = _vROM[j];
             }
             // The last element should be an null element. But...
-            if (_vROM[appCount] != APPITEM_NULL_UID) {
-                _vROM[appCount].appUID = APPITEM_NULL_UID
+            if (_vROM[appCount].appUID != APPITEM_NULL_UID) {
+                _vROM[appCount].appUID = APPITEM_NULL_UID;
                 _vROM[appCount].appSize = 0;
                 strcpy(_vROM[appCount].appName, "");
             }

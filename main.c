@@ -1,34 +1,35 @@
 #include <stdio.h>
 #include <string.h>
+#include <locale.h>
 #include "appitem.h"
 #include "file_handler.h"
+#include "desktop.h"
+#include "data_vrom.h"
+#include "data_vapps.h"
+#include "data_vstore.h"
+#include "interface.h"
 
 int main() {
-    printf("Hello, World!\n");
-    BASE_APP_ITEM testApp = Appitem_create_dummy();
-    BASE_APP_ITEM testApp2 = Appitem_create_invalid();
 
-    FILE* fp;
-    fileh_file_init(fp, "vStore");
+    setlocale(LC_ALL, "portuguese");
+    interface_configure_cmd();
 
-    BASE_APP_ITEM newApp;
-    newApp.appUID = 10;
-    newApp.appSize = 20;
-    strcpy(newApp.appName, "JPedro");
+    // Instantiation
+    BASE_APP_ITEM vStore[VSTORE_ARRAY_ITEMMAX];
+    BASE_APP_ITEM vApps[VAPPS_ARRAY_ITEMMAX];
+    BASE_APP_ITEM vROM[VROM_ARRAY_ITEMMAX];
+    int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT];
 
-    fp = fopen("vStore.mED", "a+");
-    fileh_vstore_insertApp(fp, newApp);
-    fclose(fp);
+    // Initiation
+    vStore_init(vStore);
+    vApps_init(vApps);
+    vROM_init(vROM);
+    desktop_init(desktop);
 
-    int AppCount;
-    fp = fopen("vStore.mED", "r+");
-    AppCount = fileh_vstore_getAppCount(fp);
-    printf("%d", AppCount);
-
-    printf("FIZ\n\n");
-//    fprintf(fp, "Funcionando?\n");
-//    fclose(fp);
-
+    int cleanExit = 0;
+    do {
+        cleanExit = interface_main_show(vStore, vApps, vROM, desktop);
+    } while (cleanExit != 1);
 
     return 0;
 }

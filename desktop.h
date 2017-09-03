@@ -2,6 +2,8 @@
 // Created by JPDSP on 01/09/2017.
 //
 
+#include "appitem.h"
+
 #ifndef REWRITE_MOBILEED_DESKTOP_H
 #define REWRITE_MOBILEED_DESKTOP_H
 
@@ -10,7 +12,7 @@
 
 //typedef (int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT]) DESKTOP;
 void desktop_init(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT]);
-void desktop_print(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT]);
+void desktop_print(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT], BASE_APP_ITEM* _vAppsArray);
 int desktop_add_item(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT], int UID);
 int desktop_remove_item(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT], int UID);
 

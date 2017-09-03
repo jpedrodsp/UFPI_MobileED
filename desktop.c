@@ -2,8 +2,11 @@
 // Created by JPDSP on 01/09/2017.
 //
 
+#include <stdio.h>
+#include <string.h>
 #include "appitem.h"
 #include "desktop.h"
+#include "data_vapps.h"
 
 void desktop_init(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT]){
     // Preenche a área de trabalho com UIDs nulos.
@@ -22,8 +25,10 @@ void desktop_print(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT], BASE_AP
     for (i = 0; i < DESKTOP_GRID_HEIGHT; ++i) {
         for (j = 0; j < DESKTOP_GRID_WIDTH; ++j) {
             if (desktop[i][j] != APPITEM_NULL_UID) {
-                desktopName = Appitem_return_name()
-                printf("")
+                int index = vApps_find_byUID(_vAppsArray, desktop[i][j]);
+                BASE_APP_ITEM _tempItem = vApps_return_byIndex(_vAppsArray, index);
+                strcpy(desktopName, _tempItem.appName);
+                printf("(ID.: %04d) %s\n", _tempItem, desktopName);
             }
         }
     }
