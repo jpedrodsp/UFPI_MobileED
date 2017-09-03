@@ -153,7 +153,7 @@ BASE_APP_ITEM vROM_return_byIndex (BASE_APP_ITEM* _vROM, int index) {
 
 int vROM_close_app (BASE_APP_ITEM* _vROM, int UID) {
     int index = vROM_find_byUID(_vROM, UID);
-    if (index == -1) {
+    if (index != -1) {
         int ec = vROM_remove(_vROM, UID);
         if (ec == 0) {
             return 0;

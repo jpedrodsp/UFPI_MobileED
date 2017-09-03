@@ -179,13 +179,13 @@ int vApps_uninstall_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID) {
 }
 
 int vApps_execute_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID) {
-    int ec = 0, index;
+    int ec = 0, index, index2;
     index = vApps_find_byUID(_vApps, UID);
     if (index == -1) {
         return 1; // App isn't installed.
     } else {
-        index = vROM_find_byUID(_vROM, UID);
-        if (index == -1) {
+        index2 = vROM_find_byUID(_vROM, UID);
+        if (index2 == -1) {
             // Means that the app isn't executing.
             BASE_APP_ITEM _tempItem = _vApps[index];
             ec = vROM_install(_vROM, &_tempItem);
