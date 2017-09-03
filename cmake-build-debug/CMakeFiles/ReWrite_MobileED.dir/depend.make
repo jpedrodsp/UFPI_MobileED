@@ -10,6 +10,7 @@ CMakeFiles/ReWrite_MobileED.dir/data_system.c.obj: ../data_system.h
 CMakeFiles/ReWrite_MobileED.dir/data_system.c.obj: ../data_vapps.h
 CMakeFiles/ReWrite_MobileED.dir/data_system.c.obj: ../data_vrom.h
 CMakeFiles/ReWrite_MobileED.dir/data_system.c.obj: ../data_vstore.h
+CMakeFiles/ReWrite_MobileED.dir/data_system.c.obj: ../desktop.h
 CMakeFiles/ReWrite_MobileED.dir/data_system.c.obj: ../file_handler.h
 
 CMakeFiles/ReWrite_MobileED.dir/data_vapps.c.obj: ../appitem.h
@@ -17,6 +18,7 @@ CMakeFiles/ReWrite_MobileED.dir/data_vapps.c.obj: ../data_system.h
 CMakeFiles/ReWrite_MobileED.dir/data_vapps.c.obj: ../data_vapps.c
 CMakeFiles/ReWrite_MobileED.dir/data_vapps.c.obj: ../data_vapps.h
 CMakeFiles/ReWrite_MobileED.dir/data_vapps.c.obj: ../data_vrom.h
+CMakeFiles/ReWrite_MobileED.dir/data_vapps.c.obj: ../desktop.h
 
 CMakeFiles/ReWrite_MobileED.dir/data_vrom.c.obj: ../appitem.h
 CMakeFiles/ReWrite_MobileED.dir/data_vrom.c.obj: ../data_vrom.c

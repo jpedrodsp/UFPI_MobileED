@@ -20,15 +20,12 @@ void desktop_init(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT]){
 
 void desktop_print(int desktop[DESKTOP_GRID_WIDTH][DESKTOP_GRID_HEIGHT], BASE_APP_ITEM* _vAppsArray){
     // Preenche a área de trabalho com UIDs nulos.
-    int i, j;
-    char desktopName[128];
+    int i, j, index;
     for (i = 0; i < DESKTOP_GRID_HEIGHT; ++i) {
         for (j = 0; j < DESKTOP_GRID_WIDTH; ++j) {
-            if (desktop[i][j] != APPITEM_NULL_UID) {
-                int index = vApps_find_byUID(_vAppsArray, desktop[i][j]);
-                BASE_APP_ITEM _tempItem = vApps_return_byIndex(_vAppsArray, index);
-                strcpy(desktopName, _tempItem.appName);
-                printf("(ID.: %04d) %s\n", _tempItem, desktopName);
+            if (desktop[j][i] != APPITEM_NULL_UID) {
+                index = vApps_find_byUID(_vAppsArray, desktop[j][i]);
+                printf("(ID.: %04d) %s\n", _vAppsArray[index].appUID, _vAppsArray[index].appName);
             }
         }
     }

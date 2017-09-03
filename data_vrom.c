@@ -55,7 +55,7 @@ int vROM_install (BASE_APP_ITEM* _vROM, BASE_APP_ITEM* _newItem) {
             // If there is, continue the ordered insertion.
             int i, j;
             for (i = 0; i < appCount; ++i) {
-                if (_auxItem.appSize > _vROM->appSize) {
+                if (_auxItem.appSize < _vROM[i].appSize) {
                     for (j = appCount; j > i; --j) {
                         _vROM[j] = _vROM[j-1];
                     }
@@ -82,9 +82,9 @@ int vROM_remove (BASE_APP_ITEM* _vROM, int UID) {
     // If there is, try to remove it.
     int i, j;
     for (i = 0; i < appCount; ++i) {
-        if (_vROM->appUID == UID) {
+        if (_vROM[i].appUID == UID) {
             for (j = i; j < appCount; ++j) {
-                _vROM[j+1] = _vROM[j];
+                _vROM[j] = _vROM[j+1];
             }
             // The last element should be an null element. But...
             if (_vROM[appCount].appUID != APPITEM_NULL_UID) {
@@ -113,7 +113,7 @@ int vROM_find_byUID (BASE_APP_ITEM* _vROM, int UID) {
     // If there is, try to find it.
     int i;
     for (i = 0; i < appCount; ++i) {
-        if (_vROM->appUID == UID) {
+        if (_vROM[i].appUID == UID) {
             // Returns the index of the element.
             return i;
         }

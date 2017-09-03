@@ -18,6 +18,7 @@ int vApps_find_byUID (BASE_APP_ITEM* _vApps, int UID);
 int vApps_find_byName (BASE_APP_ITEM* _vApps, const char* _AppName);
 BASE_APP_ITEM vApps_return_byIndex (BASE_APP_ITEM* _vStore, int index);
 
+int vApps_execute_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID);
 int vApps_uninstall_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID);
 
 #endif //REWRITE_MOBILEED_DATA_VAPPS_H

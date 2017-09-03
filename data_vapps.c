@@ -4,6 +4,7 @@
 
 #include "appitem.h"
 #include <string.h>
+#include <stdlib.h>
 #include "data_vapps.h"
 #include "data_vrom.h"
 
@@ -57,7 +58,7 @@ int vApps_install (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _newItem) {
                     // If there is, continue the ordered insertion.
                     int i, j;
                     for (i = 0; i < appCount; ++i) {
-                        if (_auxItem.appSize > _vApps->appSize) {
+                        if (_auxItem.appSize < _vApps[i].appSize) {
                             for (j = appCount; j > i; --j) {
                                 _vApps[j] = _vApps[j-1];
                             }
@@ -77,6 +78,10 @@ int vApps_install (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _newItem) {
 int vApps_remove (BASE_APP_ITEM* _vApps, int UID) {
     int appCount = vApps_return_count(_vApps);
 
+    if (UID == -1) {
+        return 1;
+    }
+
     // Check if there is any app on vApps Array.
     if (appCount == 0) {
         return 2; // ERROR 2: There isn't any app on the array.
@@ -84,9 +89,9 @@ int vApps_remove (BASE_APP_ITEM* _vApps, int UID) {
     // If there is, try to remove it.
     int i, j;
     for (i = 0; i < appCount; ++i) {
-        if (_vApps->appUID == UID) {
+        if (_vApps[i].appUID == UID) {
             for (j = i; j < appCount; ++j) {
-                _vApps[j+1] = _vApps[j];
+                _vApps[j] = _vApps[j+1];
             }
             // The last element should be an null element. But...
             if (_vApps[appCount].appUID != APPITEM_NULL_UID) {
@@ -114,7 +119,7 @@ int vApps_find_byUID (BASE_APP_ITEM* _vApps, int UID) {
     // If there is, try to find it.
     int i;
     for (i = 0; i < appCount; ++i) {
-        if (_vApps->appUID == UID) {
+        if (_vApps[i].appUID == UID) {
             // Returns the index of the element.
             return i;
         }
@@ -156,7 +161,7 @@ int vApps_uninstall_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID) {
     int index = vROM_find_byUID(_vROM, UID);
     if (index == -1) {
         index = vApps_find_byUID(_vApps, UID);
-        if (index == -1) {
+        if (index != -1) {
             ec = vApps_remove(_vApps, UID);
             if (ec != 0) {
                 return (ec + 1);
@@ -170,5 +175,29 @@ int vApps_uninstall_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID) {
         }
     } else {
         return 1; // The App is executing in vROM. Can't uninstall.
+    }
+}
+
+int vApps_execute_app (BASE_APP_ITEM* _vApps, BASE_APP_ITEM* _vROM, int UID) {
+    int ec = 0, index;
+    index = vApps_find_byUID(_vApps, UID);
+    if (index == -1) {
+        return 1; // App isn't installed.
+    } else {
+        index = vROM_find_byUID(_vROM, UID);
+        if (index == -1) {
+            // Means that the app isn't executing.
+            BASE_APP_ITEM _tempItem = _vApps[index];
+            ec = vROM_install(_vROM, &_tempItem);
+
+            if (ec == 0) {
+                return 0; // App executed sucessfully.
+            } else if (ec == 1){
+                return 2; // App wasn't executed, there isn't any space on vROM array.
+            }
+        }
+        else {
+            return 3; // App already in execution.
+        }
     }
 }

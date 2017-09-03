@@ -5,7 +5,7 @@
 #ifndef REWRITE_MOBILEED_APPITEM_H
 #define REWRITE_MOBILEED_APPITEM_H
 
-#define APPITEM_NAMEMAX 32+1
+#define APPITEM_NAMEMAX 64+1
 #define APPITEM_NULL_UID -1
 
 typedef struct {

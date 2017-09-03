@@ -23,4 +23,5 @@ BASE_APP_ITEM vROM_return_byIndex (BASE_APP_ITEM* _vROM, int index);
 
 int vROM_close_app (BASE_APP_ITEM* _vROM, int UID);
 
+
 #endif //REWRITE_MOBILEED_DATA_VROM_H

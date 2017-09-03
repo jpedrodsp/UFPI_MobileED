@@ -29,17 +29,27 @@ data_vrom.h
 C:/Users/jpedro/Desktop/UFPI_MobileED/data_vrom.h
 file_handler.h
 C:/Users/jpedro/Desktop/UFPI_MobileED/file_handler.h
+desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
 string.h
 -
 stdio.h
 -
 
 C:/Users/jpedro/Desktop/UFPI_MobileED/data_system.h
+stdio.h
+-
+appitem.h
+C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
+desktop.h
+C:/Users/jpedro/Desktop/UFPI_MobileED/desktop.h
 
 C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.c
 appitem.h
 C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
 string.h
+-
+stdlib.h
 -
 data_vapps.h
 C:/Users/jpedro/Desktop/UFPI_MobileED/data_vapps.h
@@ -148,6 +158,8 @@ stdio.h
 string.h
 -
 locale.h
+-
+stdlib.h
 -
 appitem.h
 C:/Users/jpedro/Desktop/UFPI_MobileED/appitem.h
